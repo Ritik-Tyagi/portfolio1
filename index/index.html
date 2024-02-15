@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0f80283a5c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+<div id ="header">
+    <div class="container">
+        <nav>
+            <h2>Ritik tyagi</h2>
+            
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi<br> I'm <span>Ritik</span> Tyagi</h1>
+            <p>Algorithm Developer</p>
+            
+            
+        </div>
+
+    </div> 
+</div> 
+<!-------about---------->
+<div id ="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/photo ritik (2).png" alt="about section add image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>Greetings! 🌟 Tech enthusiast from a proud farmer family, I embarked on a transformative journey in January 2022, earning a web development certification. Proficient in Data Structures and Algorithms, I'm honing Full Stack Web Development skills in the Prepleaf by Masai School Career Accelerator Program. Seeking opportunities as an Algorithm Development Intern, I bring a tech prowess to contribute meaningfully. Let's connect and explore the possibilities in the ever-evolving tech landscape! 🌐</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Front-End</span><br>HTML,CSS,Java Script</li>
+                        <li><span>Back-End</span><br> Python</li>
+                        <li><span>DSA</span><br> String,Array,Object,Dianamic Programming</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2022-2025</span><br>Full Stack Web Developer from Prepleaf by Masai</li>
+                        <li><span>2022-2025</span><br>BCA from Mangalayatan University </li>
+                        <li><span>2019-2022</span><br>Fitter from Govt. ITI Saharanpur </li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!-------services---->
+<div id="Skills">
+    <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="Skills-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Front-End</h2>
+            <P>Skilled in creating user-friendly websites using HTML, CSS, and JavaScript for a smooth user experience.</P>
+            <a href="#"></b>Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-solid fa-gear"></i>
+            <h2>Back-End</h2>
+            <P>Building server-side applications with Python along with API integration for seamless functionality.</P>
+            <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-solid fa-sitemap"></i>
+            <h2>Data Structures</h2>
+            <P>Solid grasp of fundamental data structures like arrays, strings, Set, Dictionary, Stack, Queue, LinkedList, trees, and graphs, ensuring efficient and scalable coding solutions.</P>
+            <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Algorithms</h2>
+            <P>Skilled in problem-solving using Sliding Window, BFS, DFS, sorting, backtracking, and binary search. Capable in graph algorithms, mastering techniques like DFS and specialized sorting for effective network problem-solving.</P>
+            <a href="#">Learn more</a>
+           </div> 
+        </div>  
+    </div>
+</div>
+<div id="Teachstack">
+    <div class="container">
+        <h1 class="sub-title">Teachstack</h1>
+        <div class="Skills-list">
+           <div>
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML</h2>
+           </div> 
+           <div>
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS</h2>
+           </div> 
+           <div>
+            <i class="fa-brands fa-js"></i>
+            <h2>Java Script</h2>
+           </div> 
+           <div>
+            <i class="fa-brands fa-python"></i>
+            <h2>Python</h2>
+           </div> 
+        </div>  
+    </div>
+    
+</div>
+<div class="Statistics">
+    <div class="container">
+        <h1 class="sub-title">Statistics</h1>
+        <div class="Skills-list">
+           <div>
+            <i class="fa-solid fa-calendar-days"></i>
+            <h2>12+<br> Months of Coding</h2>
+           </div> 
+           <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>600+<br> DSA Problems</h2>
+           </div> 
+           <div>
+            <i class="fa-solid fa-gears"></i>
+            <h2>100+<br> Hours of Soft Skills</h2>
+           </div> 
+           
+        </div>  
+    </div>
+</div>
+<div class="Tools">
+    <div class="container">
+        <h1 class="sub-title">Tools</h1>
+        <div class="Skills-list">
+           <div>
+            <i class="fa-solid fa-file-code"></i>
+            <h2>VS-Code</h2>
+           </div> 
+           <div>
+            <i class="fa-solid fa-code-branch"></i>
+            <h2>Git</h2>
+           </div> 
+           <div>
+            <i class="fa-brands fa-square-github"></i>
+            <h2>Github</h2>
+           </div> 
+           
+        </div>  
+    </div>  
+</div>
+<!-------portfolio------>
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ai image.jpg" alt="ai photo">
+                <div class="layer">
+                    <h3>Ai Assistent</h3> 
+                    <P>Several AI assistants carry the Jarvis name, offering features like scheduling, weather updates, knowledge retrieval, and more. </P>
+                    <a href="https://github.com/Ritik-Tyagi/jarvis_basic/blob/main/jarvis.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#" class="btn1"><i class="fa-solid fa-video"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Maze solver photo.png" alt="mage solver photo">
+                <div class="layer">
+                    <h3>Maze-Solver</h3> 
+                    <P>Dive into maze exploration with DFS & BFS
+                        algorithm. Craft mazes and experience seamless
+                        solving,providing an immersive journey through
+                        visually captivating labyrinths. </P>
+                    <a href="https://github.com/Ritik-Tyagi/Maze_solver/blob/main/Maze.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#" class="btn1"><i class="fa-solid fa-video"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/OIP.jpeg" alt="weather image">
+                <div class="layer">
+                    <h3>Weather-detector</h3> 
+                    <P> Stay updated onweather conditions with a user-friendly
+                        API integration for any city. </P>
+                    <a href="https://github.com/Ritik-Tyagi/using_api-1/blob/main/wapp.py"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="#" class="btn1"><i class="fa-solid fa-video"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/Ritik-Tyagi" class="btn">See more</a>
+    </div>
+</div>
+<!----------- contact -------->
+<div id="contact">
+ <div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i> ritiktyag6@gmail.com</p>
+            <p> <i class="fa-solid fa-phone-volume"></i> 9027278757</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/ritiktyag6/"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ritik-tyagi-%F0%9F%92%BB-%F0%9F%94%8A-754884270/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Ritik-Tyagi"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.hackerrank.com/profile/ritiktyag6"><i class="fa-brands fa-hackerrank"></i></a>
+                <a href="https://leetcode.com/Tyagi_2000/">leetcode</a>
+            </div>
+            <a href="c:\Users\Dell\Downloads\Ritik Tyagi-cap02_122-Algorithm Developer Intern (2).pdf" class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name"required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">submit</button>
+            </form>
+            <span id="msg">hello</span>
+        </div>
+    </div>
+ </div>
+ <div class="copyright">
+    <p>Copyright @ Ritik Tyagi Made With <i class="fa-solid fa-heart"></i> </p>
+ </div>  
+</div>
+<!-- <script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for (tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu=document.getElementById("sidemenu")
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz2xznmMnYNWit88osg7XCU7oQXvyFoK-Sx8vRyGMYTkXxY7rKOS0nTYSIa3vVVYIhb/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault() -->
+      <!-- fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>  -->
+  <script src="script.js"></script>
+</body>
+</html>
